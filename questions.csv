@@ -1,0 +1,818 @@
+﻿question_code,question_name,has_value_labels,value_label_set,theme,theme_group_id
+S002EVS,EVS-wave,TRUE,labels0,,
+s002vs,Chronology of EVS-WVS waves,TRUE,labels1,,
+COWM,Country (CoW Numeric code),TRUE,labels2,,
+A001,Important in life: Family,FALSE,,Life Priorities & Well-being,1
+A002,Important in life: Friends,FALSE,,Life Priorities & Well-being,1
+A003,Important in life: Leisure time,FALSE,,Life Priorities & Well-being,1
+A004,Important in life: Politics,FALSE,,Life Priorities & Well-being,1
+A005,Important in life: Work,FALSE,,Life Priorities & Well-being,1
+A006,Important in life: Religion,FALSE,,Life Priorities & Well-being,1
+A007,Service to others important in life,FALSE,,Life Priorities & Well-being,1
+A008,Feeling of happiness,FALSE,,Life Priorities & Well-being,1
+A009,State of health (subjective),FALSE,,Life Priorities & Well-being,1
+A010,Ever felt very excited or interested,FALSE,,Affect / Emotions,2
+A011,Ever felt restless,FALSE,,Affect / Emotions,2
+A012,Ever felt proud because someone complimented you,FALSE,,Affect / Emotions,2
+A013,Ever felt very lonely or remote from other people,FALSE,,Affect / Emotions,2
+A014,Ever felt pleased about having accomplished something,FALSE,,Affect / Emotions,2
+A015,Ever felt bored,FALSE,,Affect / Emotions,2
+A016,Ever felt on top of the world,FALSE,,Affect / Emotions,2
+A017,Ever felt depressed or very unhappy,FALSE,,Affect / Emotions,2
+A018,Ever felt that things were going your way,FALSE,,Affect / Emotions,2
+A019,Ever felt upset because somebody criticized you,FALSE,,Affect / Emotions,2
+A025,Respect and love for parents,FALSE,,"Family, Parenting & Childrearing Values",3
+A026,Parents responsibilities to their children,FALSE,,"Family, Parenting & Childrearing Values",3
+A027,Important child qualities: good manners,FALSE,,"Family, Parenting & Childrearing Values",3
+A029,Important child qualities: independence,FALSE,,"Family, Parenting & Childrearing Values",3
+A030,Important child qualities: hard work,FALSE,,"Family, Parenting & Childrearing Values",3
+A032,Important child qualities: feeling of responsibility,FALSE,,"Family, Parenting & Childrearing Values",3
+A034,Important child qualities: imagination,FALSE,,"Family, Parenting & Childrearing Values",3
+A035,Important child qualities: tolerance and respect for other people,FALSE,,"Family, Parenting & Childrearing Values",3
+A038,Important child qualities: thrift saving money and things,FALSE,,"Family, Parenting & Childrearing Values",3
+A039,Important child qualities: determination perseverance,FALSE,,"Family, Parenting & Childrearing Values",3
+A040,Important child qualities: religious faith,FALSE,,"Family, Parenting & Childrearing Values",3
+A041,Important child qualities: unselfishness,FALSE,,"Family, Parenting & Childrearing Values",3
+A042,Important child qualities: obedience,FALSE,,"Family, Parenting & Childrearing Values",3
+A043_01,Important child qualities: none,FALSE,,"Family, Parenting & Childrearing Values",3
+A046,Abortion when the mothers health is at risk,FALSE,,Reproductive Rights / Abortion Attitudes,4
+A047,Abortion when child physically handicapped,FALSE,,Reproductive Rights / Abortion Attitudes,4
+A048,Abortion when woman not married,FALSE,,Reproductive Rights / Abortion Attitudes,4
+A049,Abortion if not wanting more children,FALSE,,Reproductive Rights / Abortion Attitudes,4
+A058,Spend time with friends,FALSE,,Social Capital: Time & Discussion,5
+A059,Spend time with colleagues from work,FALSE,,Social Capital: Time & Discussion,5
+A060,"Spend time with people at your church, mosque or synagogue",FALSE,,Social Capital: Time & Discussion,5
+A061,"Spend time with people at sport, culture, communal organization",FALSE,,Social Capital: Time & Discussion,5
+A062,How often discusses political matters with friends,FALSE,,Social Capital: Time & Discussion,5
+A063,"Persuading friends, relatives or fellow workers",FALSE,,Social Capital: Time & Discussion,5
+A064,"Member: Belong to social welfare service for elderly, handicapped or deprived people",FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A065,Member: Belong to religious organization,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A066,"Member: Belong to education, arts, music or cultural activities",FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A067,Member: Belong to labour unions,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A068,Member: Belong to political parties,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A069,Member: Belong to local political actions,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A070,Member: Belong to human rights,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A071,"Member: Belong to conservation, the environment, ecology, animal rights",FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A071B,"Member: Belong to conservation, the environment, ecology",FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A071C,Member: Belong to animal rights,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A072,Member: Belong to professional associations,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A073,Member: Belong to youth work,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A074,Member: Belong to sports or recreation,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A075,Member: Belong to women´s group,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A076,Member: Belong to peace movement,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A077,Member: Belong to organization concerned with health,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A078,Member: Belong to consumer groups,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A079,Member: Belong to other groups,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A080,Member: Belong to none,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A080_01,Member: Belong to humanitarian or charitable organization,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A080_02,"Member:  Belong to self-help group, mutual aid group",FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A081,"Voluntary work: Unpaid work social welfare service for elderly, handicapped or deprived people",FALSE,,Volunteering (activities),7
+A082,Voluntary work: Unpaid work religious or church organization,FALSE,,Volunteering (activities),7
+A083,"Voluntary work: Unpaid work education, arts, music or cultural activities",FALSE,,Volunteering (activities),7
+A084,Voluntary work: Unpaid work labour unions,FALSE,,Volunteering (activities),7
+A085,Voluntary work: Unpaid work political parties or groups,FALSE,,Volunteering (activities),7
+A086,Voluntary work: Unpaid work local political action groups,FALSE,,Volunteering (activities),7
+A087,Voluntary work: Unpaid work human rights,FALSE,,Volunteering (activities),7
+A088,"Voluntary work: Unpaid work environment, conservation, animal rights",FALSE,,Volunteering (activities),7
+A088B,"Voluntary work: Unpaid work environment, conservation, ecology",FALSE,,Volunteering (activities),7
+A088C,Voluntary work: Unpaid work animal rights,FALSE,,Volunteering (activities),7
+A089,Voluntary work: Unpaid work professional associations,FALSE,,Volunteering (activities),7
+A090,Voluntary work: Unpaid work youth work,FALSE,,Volunteering (activities),7
+A091,Voluntary work: Unpaid work sports or recreation,FALSE,,Volunteering (activities),7
+A092,Voluntary work: Unpaid work women´s group,FALSE,,Volunteering (activities),7
+A093,Voluntary work: Unpaid work peace movement,FALSE,,Volunteering (activities),7
+A094,Voluntary work: Unpaid work organization concerned with health,FALSE,,Volunteering (activities),7
+A096,Voluntary work: Unpaid work other groups,FALSE,,Volunteering (activities),7
+A097,Voluntary work: Unpaid work none,FALSE,,Volunteering (activities),7
+A107,Reasons voluntary work: Solidarity with the poor and disadvantaged,FALSE,,Volunteering (motivations),8
+A108,Reasons voluntary work: Compassion for those in need,FALSE,,Volunteering (motivations),8
+A109,Reasons voluntary work: Opportunity to repay something,FALSE,,Volunteering (motivations),8
+A110,"Reasons voluntary work: Sense of duty, moral, obligation",FALSE,,Volunteering (motivations),8
+A111,Reasons voluntary work: Identifying with people who suffer,FALSE,,Volunteering (motivations),8
+A112,Reasons voluntary work: Time on my hands,FALSE,,Volunteering (motivations),8
+A113,Reasons voluntary work: Personal satisfaction,FALSE,,Volunteering (motivations),8
+A114,Reasons voluntary work: Religious belief,FALSE,,Volunteering (motivations),8
+A115,Reasons voluntary work: Help disadvantaged people,FALSE,,Volunteering (motivations),8
+A116,Reasons voluntary work: Make a contribution to my local community,FALSE,,Volunteering (motivations),8
+A117,Reasons voluntary work: Bring about social or political change,FALSE,,Volunteering (motivations),8
+A118,Reasons voluntary work: For social reasons,FALSE,,Volunteering (motivations),8
+A119,Reasons voluntary work: Gain new skills and useful experience,FALSE,,Volunteering (motivations),8
+A120,"Reasons voluntary work: Did not want to, but could not refuse",FALSE,,Volunteering (motivations),8
+A124_01,Neighbours: People with a criminal record,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_02,Neighbours: People of a different race,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_03,Neighbours: Heavy drinkers,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_04,Neighbours: Emotionally unstable people,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_05,Neighbours: Muslims,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_06,Neighbours: Immigrants/foreign workers,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_07,Neighbours: People who have AIDS,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_08,Neighbours: Drug addicts,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_09,Neighbours: Homosexuals,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_10,Neighbours: Jews,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_17,Neighbours: Gypsies,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_24,Neighbours: Christians,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_26,Neighbours: Left wing extremists,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_27,Neighbours: Right wing extremists,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_28,Neighbours: People with large families,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_29,Neighbours: Hindus,FALSE,,Social Distance / Unwanted Neighbours,9
+A165,Most people can be trusted,FALSE,,"Trust, Life Satisfaction & Autonomy",10
+A168,Do you think most people try to take advantage of you,FALSE,,"Trust, Life Satisfaction & Autonomy",10
+A168A,Do you think most people try to take advantage of you (10-point scale),FALSE,,"Trust, Life Satisfaction & Autonomy",10
+A169,Good human relationships,FALSE,,"Trust, Life Satisfaction & Autonomy",10
+A170,Satisfaction with your life,FALSE,,Life Priorities & Well-being,1
+A170,Satisfaction with your life,FALSE,,Life Priorities & Well-being,10
+A170,Satisfaction with your life,FALSE,,"Trust, Life Satisfaction & Autonomy",1
+A170,Satisfaction with your life,FALSE,,"Trust, Life Satisfaction & Autonomy",10
+A173,How much freedom of choice and control,FALSE,,Life Priorities & Well-being,1
+A173,How much freedom of choice and control,FALSE,,Life Priorities & Well-being,10
+A173,How much freedom of choice and control,FALSE,,"Trust, Life Satisfaction & Autonomy",1
+A173,How much freedom of choice and control,FALSE,,"Trust, Life Satisfaction & Autonomy",10
+B001,Would give part of my income for the environment (4-point scale),FALSE,,Environment,11
+B002,Increase in taxes if used to prevent environmental pollution,FALSE,,Environment,11
+B003,Government should reduce environmental pollution,FALSE,,Environment,11
+B005,All talk about the environment make people anxious,FALSE,,Environment,11
+B006,"Combatting unemployment, we have to accept environmental problems",FALSE,,Environment,11
+B007,Protecting environment and fighting pollution is less urgent than suggested,FALSE,,Environment,11
+B008,Protecting environment vs. Economic growth,FALSE,,Environment,11
+C001,Jobs scarce: Men should have more right to a job than women (3 categories),FALSE,,Labour Market Attitudes,12
+C001_01,Jobs scarce: Men should have more right to a job than women (5-point scale),FALSE,,Labour Market Attitudes,12
+C002,Jobs scarce: Employers should give priority to (nation) people than immigrants (3 categories),FALSE,,Labour Market Attitudes,12
+C002_01,Jobs scarce: Employers should give priority to (nation) people than immigrants (5-point scale),FALSE,,Labour Market Attitudes,12
+C004,Jobs scarce: older people should be forced to retire,FALSE,,Labour Market Attitudes,12
+C005,Unfair to give work to handicapped people when able bodied people can´t find jobs,FALSE,,Labour Market Attitudes,12
+C006,Satisfaction with financial situation of household,FALSE,,Labour Market Attitudes,12
+C011,Important in a job: good pay,FALSE,,Work Values & Job Rewards,13
+C012,Important in a job: not too much pressure,FALSE,,Work Values & Job Rewards,13
+C013,Important in a job: good job security,FALSE,,Work Values & Job Rewards,13
+C014,Important in a job: a respected job,FALSE,,Work Values & Job Rewards,13
+C015,Important in a job: good hours,FALSE,,Work Values & Job Rewards,13
+C016,Important in a job: an opportunity to use initiative,FALSE,,Work Values & Job Rewards,13
+C017,Important in a job: generous holidays,FALSE,,Work Values & Job Rewards,13
+C018,Important in a job: that you can achieve something,FALSE,,Work Values & Job Rewards,13
+C019,Important in a job: a responsible job,FALSE,,Work Values & Job Rewards,13
+C020,Important in a job: a job that is interesting,FALSE,,Work Values & Job Rewards,13
+C021,Important in a job: a job that meets one´s abilities,FALSE,,Work Values & Job Rewards,13
+C022,Important in a job: pleasant people to work with,FALSE,,Work Values & Job Rewards,13
+C023,Important in a job: good chances for promotion,FALSE,,Work Values & Job Rewards,13
+C024,Important in a job: a useful job for society,FALSE,,Work Values & Job Rewards,13
+C025,Important in a job: meeting people,FALSE,,Work Values & Job Rewards,13
+C027_90,Important in a job: none of these,FALSE,,Work Values & Job Rewards,13
+C029,Employed,FALSE,,"Work Experience, Work Ethic & Practices",14
+C031,Degree of pride in your work,FALSE,,"Work Experience, Work Ethic & Practices",14
+C033,Job satisfaction,FALSE,,"Work Experience, Work Ethic & Practices",14
+C034,Freedom decision taking in job,FALSE,,"Work Experience, Work Ethic & Practices",14
+C036,To develop talents you need to have a job,FALSE,,"Work Experience, Work Ethic & Practices",14
+C037,Humiliating to receive money without having to work for it,FALSE,,"Work Experience, Work Ethic & Practices",14
+C038,People who don´t work turn lazy,FALSE,,"Work Experience, Work Ethic & Practices",14
+C039,Work is a duty towards society,FALSE,,"Work Experience, Work Ethic & Practices",14
+C040,People should not have to work if they don´t want to,FALSE,,"Work Experience, Work Ethic & Practices",14
+C041,Work should come first even if it means less spare time,FALSE,,"Work Experience, Work Ethic & Practices",14
+C042B1,Why people work: work is like a business transaction,FALSE,,"Work Experience, Work Ethic & Practices",14
+C042B2,Why people work: I do the best I can regardless of pay,FALSE,,"Work Experience, Work Ethic & Practices",14
+C042B3,Why people work: I wouldn’t work if I didn’t have to,FALSE,,"Work Experience, Work Ethic & Practices",14
+C042B4,Why people work: I wouldn´t work if work interfered my life,FALSE,,"Work Experience, Work Ethic & Practices",14
+C042B5,Why people work: work most important in my life,FALSE,,"Work Experience, Work Ethic & Practices",14
+C042B6,Why people work: I never had a paid job,FALSE,,"Work Experience, Work Ethic & Practices",14
+C042B7,Why people work: don’t know,FALSE,,"Work Experience, Work Ethic & Practices",14
+C059,Fairness: One secretary is paid more,FALSE,,"Work Experience, Work Ethic & Practices",14
+C060,How business and industry should be managed,FALSE,,"Work Experience, Work Ethic & Practices",14
+C061,Following instructions at work,FALSE,,"Work Experience, Work Ethic & Practices",14
+D001,How much do you trust your family (5-point scale),FALSE,,"Trust, Life Satisfaction & Autonomy",10
+D001_B,How much do you trust your family (4-point scale),FALSE,,"Trust, Life Satisfaction & Autonomy",10
+D002,Satisfaction with home life,FALSE,,"Trust, Life Satisfaction & Autonomy",10
+D003,Sharing with partner: attitudes towards religion,FALSE,,"Gender, Family Norms & Relationships",15
+D004,Sharing with partner: moral standards,FALSE,,"Gender, Family Norms & Relationships",15
+D005,Sharing with partner: social attitudes,FALSE,,"Gender, Family Norms & Relationships",15
+D006,Sharing with partner: political views,FALSE,,"Gender, Family Norms & Relationships",15
+D007,Sharing with partner: sexual attitudes,FALSE,,"Gender, Family Norms & Relationships",15
+D008,Sharing with partner: no sharing attitudes,FALSE,,"Gender, Family Norms & Relationships",15
+D009,Sharing with partner: don´t know or missing,FALSE,,"Gender, Family Norms & Relationships",15
+D010,Sharing with parents: attitudes towards religion,FALSE,,"Gender, Family Norms & Relationships",15
+D011,Sharing with parents: moral standards,FALSE,,"Gender, Family Norms & Relationships",15
+D012,Sharing with parents: social attitudes,FALSE,,"Gender, Family Norms & Relationships",15
+D013,Sharing with parents: political views,FALSE,,"Gender, Family Norms & Relationships",15
+D014,Sharing with parents: sexual attitudes,FALSE,,"Gender, Family Norms & Relationships",15
+D015,Sharing with parents: no sharing attitudes,FALSE,,"Gender, Family Norms & Relationships",15
+D016,Sharing with parents: don´t know or missing,FALSE,,"Gender, Family Norms & Relationships",15
+D017,Ideal number of children,FALSE,,"Family, Parenting & Childrearing Values",3
+D018,Child needs a home with father and mother,FALSE,,"Family, Parenting & Childrearing Values",3
+D019,A woman has to have children to be fulfilled,FALSE,,"Family, Parenting & Childrearing Values",3
+D020,A man has to have children to be fulfilled,FALSE,,"Family, Parenting & Childrearing Values",3
+D022,Marriage is an out-dated institution,FALSE,,"Gender, Family Norms & Relationships",15
+D023,Woman as a single parent,FALSE,,"Gender, Family Norms & Relationships",15
+D024,Enjoy sexual freedom,FALSE,,"Gender, Family Norms & Relationships",15
+D026,Long-term relationship is necessary to be happy,FALSE,,"Gender, Family Norms & Relationships",15
+D026_03,Duty towards society to have children,FALSE,,"Family, Parenting & Childrearing Values",3
+D026_05,It is childs duty to take care of ill parent,FALSE,,"Family, Parenting & Childrearing Values",3
+D027,Important for successful marriage: Faithfulness,FALSE,,"Family, Parenting & Childrearing Values",3
+D028,Important for successful marriage: Adequate income,FALSE,,"Family, Parenting & Childrearing Values",3
+D029,Important for successful marriage: Same social background,FALSE,,"Family, Parenting & Childrearing Values",3
+D030,Important for successful marriage: Respect and appreciation,FALSE,,"Family, Parenting & Childrearing Values",3
+D031,Important for successful marriage: Religious beliefs,FALSE,,"Family, Parenting & Childrearing Values",3
+D032,Important for successful marriage: Good housing,FALSE,,"Family, Parenting & Childrearing Values",3
+D033,Important for successful marriage: Agreement on politics,FALSE,,"Family, Parenting & Childrearing Values",3
+D034,Important for successful marriage: Understanding and tolerance,FALSE,,"Family, Parenting & Childrearing Values",3
+D035,Important for successful marriage: Apart from in-laws,FALSE,,"Family, Parenting & Childrearing Values",3
+D036,Important for successful marriage: Happy sexual relationship,FALSE,,"Family, Parenting & Childrearing Values",3
+D037,Important for successful marriage: Sharing household chores,FALSE,,"Family, Parenting & Childrearing Values",3
+D038,Important for successful marriage: Children,FALSE,,"Family, Parenting & Childrearing Values",3
+D039,Important for successful marriage: Discussing problems,FALSE,,"Family, Parenting & Childrearing Values",3
+D043,Important for successful marriage: Tastes and interests in common,FALSE,,"Family, Parenting & Childrearing Values",3
+D043_01,Important for successful marriage: Time for friends and personal hobbies,FALSE,,"Family, Parenting & Childrearing Values",3
+D054,One of main goals in life has been to make my parents proud,FALSE,,"Family, Parenting & Childrearing Values",3
+D056,Relationship working mother,FALSE,,"Gender, Family Norms & Relationships",15
+D057,Being a housewife just as fulfilling,FALSE,,"Gender, Family Norms & Relationships",15
+D058,Husband and wife should both contribute to income,FALSE,,"Gender, Family Norms & Relationships",15
+D059,Men make better political leaders than women do,FALSE,,"Gender, Family Norms & Relationships",15
+D060,University is more important for a boy than for a girl,FALSE,,"Gender, Family Norms & Relationships",15
+D061,Pre-school child suffers with working mother,FALSE,,"Gender, Family Norms & Relationships",15
+D062,Women want a home and children,FALSE,,"Gender, Family Norms & Relationships",15
+D063,Job best way for women to be independent (4 categories),FALSE,,"Gender, Family Norms & Relationships",15
+D064,Fathers are well suited for looking after children,FALSE,,"Gender, Family Norms & Relationships",15
+D078,Men make better business executives than women do,FALSE,,"Gender, Family Norms & Relationships",15
+D081,Homosexual couples are as good parents as other couples,FALSE,,"Gender, Family Norms & Relationships",15
+E001,Aims of country: first choice,FALSE,,National / Societal Aims & Value Orientations,16
+E002,Aims of country: second choice,FALSE,,National / Societal Aims & Value Orientations,16
+E003,Aims of respondent: first choice,FALSE,,National / Societal Aims & Value Orientations,16
+E004,Aims of respondent: second choice,FALSE,,National / Societal Aims & Value Orientations,16
+E005,Most important: first choice,FALSE,,National / Societal Aims & Value Orientations,16
+E006,Most important: second choice,FALSE,,National / Societal Aims & Value Orientations,16
+E012,Willingness to fight for country,FALSE,,,
+E014,Future changes: Less emphasis on money and material possessions,FALSE,,National / Societal Aims & Value Orientations,16
+E015,Future changes: Less importance placed on work,FALSE,,National / Societal Aims & Value Orientations,16
+E016,Future changes: More emphasis on technology,FALSE,,National / Societal Aims & Value Orientations,16
+E017,Future changes: More emphasis on individual,FALSE,,National / Societal Aims & Value Orientations,16
+E018,Future changes: Greater respect for authority,FALSE,,National / Societal Aims & Value Orientations,16
+E019,Future changes: More emphasis on family life,FALSE,,National / Societal Aims & Value Orientations,16
+E020,Future changes: A simple and more natural lifestyle,FALSE,,National / Societal Aims & Value Orientations,16
+E022,Opinion about scientific advances,FALSE,,National / Societal Aims & Value Orientations,16
+E023,Interest in politics,FALSE,,"Political Interest, Action & Ideology",17
+E025,Political action: signing a petition,FALSE,,"Political Interest, Action & Ideology",17
+E026,Political action: joining in boycotts,FALSE,,"Political Interest, Action & Ideology",17
+E027,Political action: attending lawful/peaceful demonstrations,FALSE,,"Political Interest, Action & Ideology",17
+E028,Political action: joining unofficial strikes,FALSE,,"Political Interest, Action & Ideology",17
+E029,Political action: occupying buildings or factories,FALSE,,"Political Interest, Action & Ideology",17
+E032,Freedom or equality,FALSE,,National / Societal Aims & Value Orientations,16
+E033,Self positioning in political scale,FALSE,,"Political Interest, Action & Ideology",17
+E034,Basic kinds of attitudes concerning society,FALSE,,National / Societal Aims & Value Orientations,16
+E035,Income equality,FALSE,,Economy & Role of the State,18
+E036,Private vs state ownership of business,FALSE,,Economy & Role of the State,18
+E037,Government responsibility,FALSE,,Economy & Role of the State,18
+E038,Job taking of the unemployed,FALSE,,Economy & Role of the State,18
+E039,Competition good or harmful,FALSE,,Economy & Role of the State,18
+E040,Hard work brings success,FALSE,,Economy & Role of the State,18
+E041,Wealth accumulation,FALSE,,Economy & Role of the State,18
+E042,Firms and freedom,FALSE,,Economy & Role of the State,18
+E045,Major changes in life,FALSE,,National / Societal Aims & Value Orientations,16
+E046,New and old ideas,FALSE,,National / Societal Aims & Value Orientations,16
+E047,"Personal characteristics: changes, worry or welcome possibility",FALSE,,National / Societal Aims & Value Orientations,16
+E048,Personal characteristics: I usually count on being successful in everything I do,FALSE,,National / Societal Aims & Value Orientations,16
+E049,Personal characteristics: I enjoy convincing others of my opinion,FALSE,,National / Societal Aims & Value Orientations,16
+E050,Personal characteristics: I serve as a model for others,FALSE,,National / Societal Aims & Value Orientations,16
+E051,Personal characteristics: I am good at getting what I want,FALSE,,National / Societal Aims & Value Orientations,16
+E052,Personal characteristics: I own many things others envy me for,FALSE,,National / Societal Aims & Value Orientations,16
+E053,Personal characteristics: I like to assume responsibility,FALSE,,National / Societal Aims & Value Orientations,16
+E054,Personal characteristics: I am rarely unsure about how I should behave,FALSE,,National / Societal Aims & Value Orientations,16
+E055,Personal characteristics: I often give others advice,FALSE,,National / Societal Aims & Value Orientations,16
+E056,Personal characteristics: none of the above,FALSE,,National / Societal Aims & Value Orientations,16
+E057,The economic system needs fundamental changes,FALSE,,National / Societal Aims & Value Orientations,16
+E058,Our government should be made much more open to the public,FALSE,,National / Societal Aims & Value Orientations,16
+E059,Allow more freedom for individuals,FALSE,,National / Societal Aims & Value Orientations,16
+E060,I could do nothing about an unjust law,FALSE,,National / Societal Aims & Value Orientations,16
+E061,Political reform is moving too rapidly,FALSE,,National / Societal Aims & Value Orientations,16
+E069_01,Confidence: Churches,FALSE,,Confidence in Institutions,19
+E069_02,Confidence: Armed Forces,FALSE,,Confidence in Institutions,19
+E069_03,Confidence: Education System,FALSE,,Confidence in Institutions,19
+E069_04,Confidence: The Press,FALSE,,Confidence in Institutions,19
+E069_05,Confidence: Labour Unions,FALSE,,Confidence in Institutions,19
+E069_06,Confidence: The Police,FALSE,,Confidence in Institutions,19
+E069_07,Confidence: Parliament,FALSE,,Confidence in Institutions,19
+E069_08,Confidence: The Civil Services,FALSE,,Confidence in Institutions,19
+E069_09,Confidence: Social Security System,FALSE,,Confidence in Institutions,19
+E069_11,Confidence: The Government,FALSE,,Confidence in Institutions,19
+E069_12,Confidence: The Political Parties,FALSE,,Confidence in Institutions,19
+E069_13,Confidence: Major Companies,FALSE,,Confidence in Institutions,19
+E069_14,Confidence: The Environmental Protection Movement,FALSE,,Confidence in Institutions,19
+E069_16,Confidence: Health Care System,FALSE,,Confidence in Institutions,19
+E069_17,Confidence: Justice System/Courts,FALSE,,Confidence in Institutions,19
+E069_18,Confidence: The European Union,FALSE,,Confidence in Institutions,19
+E069_18A,Confidence: Major regional organization (combined from country-specific),FALSE,,Confidence in Institutions,19
+E069_19,Confidence: NATO,FALSE,,Confidence in Institutions,19
+E069_20,Confidence: The United Nations,FALSE,,Confidence in Institutions,19
+E104,Approval: Ecology movement or nature protection,FALSE,,Approval of Social Movements,20
+E105,Approval: Anti-nuclear energy movement,FALSE,,Approval of Social Movements,20
+E106,Approval: Disarmament movement,FALSE,,Approval of Social Movements,20
+E107,Approval: Human rights movement,FALSE,,Approval of Social Movements,20
+E108,Approval: Women’s movement,FALSE,,Approval of Social Movements,20
+E109,Approval: Anti-apartheid movement,FALSE,,Approval of Social Movements,20
+E110,Satisfaction with the way democracy develops,FALSE,,"Democracy: Values, Regimes & Performance",21
+E111,Rate political system for governing country,FALSE,,"Democracy: Values, Regimes & Performance",21
+E111_01,Satisfaction with the political system,FALSE,,"Democracy: Values, Regimes & Performance",21
+E112,Rate political system as it was before,FALSE,,"Democracy: Values, Regimes & Performance",21
+E114,Political system: Having a strong leader,FALSE,,"Democracy: Values, Regimes & Performance",21
+E115,Political system: Having experts make decisions,FALSE,,"Democracy: Values, Regimes & Performance",21
+E116,Political system: Having the army rule,FALSE,,"Democracy: Values, Regimes & Performance",21
+E117,Political system: Having a democratic political system,FALSE,,"Democracy: Values, Regimes & Performance",21
+E118,Firm party leader vs. Cooperating party leader,FALSE,,"Democracy: Values, Regimes & Performance",21
+E119,Government order vs. freedom,FALSE,,"Democracy: Values, Regimes & Performance",21
+E120,"In democracy, the economic system runs badly",FALSE,,"Democracy: Values, Regimes & Performance",21
+E121,Democracies are indecisive and have too much squabbling,FALSE,,"Democracy: Values, Regimes & Performance",21
+E122,Democracies aren´t good at maintaining order,FALSE,,"Democracy: Values, Regimes & Performance",21
+E123,Democracy may have problems but is better,FALSE,,"Democracy: Values, Regimes & Performance",21
+E124,Respect for individual human rights nowadays,FALSE,,"Democracy: Values, Regimes & Performance",21
+E125,Satisfaction with the people in national office,FALSE,,"Democracy: Values, Regimes & Performance",21
+E129,Economic aid to poorer countries,FALSE,,Global Governance & Issues,22
+E135,Who should decide: international peacekeeping,FALSE,,Global Governance & Issues,22
+E136,Who should decide: protection of the environment,FALSE,,Global Governance & Issues,22
+E137,Who should decide: aid to developing countries,FALSE,,Global Governance & Issues,22
+E138,Who should decide: refugees,FALSE,,Global Governance & Issues,22
+E139,Who should decide: human rights,FALSE,,Global Governance & Issues,22
+E140,Country cannot solve environmental problems by itself,FALSE,,Global Governance & Issues,22
+E141,Country cannot solve crime problems by itself,FALSE,,Global Governance & Issues,22
+E142,Country cannot solve employment problems by itself,FALSE,,Global Governance & Issues,22
+E143,Immigrant policy,FALSE,,Global Governance & Issues,22
+E144,Living day to day because of uncertain future,FALSE,,,
+E150,How often follows politics in the news,FALSE,,"Political Interest, Action & Ideology",17
+E151,Give authorities information to help justice,FALSE,,Circles of Solidarity / Concern,23
+E152,Stick to own affairs,FALSE,,Circles of Solidarity / Concern,23
+E153,Feel concerned about immediate family,FALSE,,Circles of Solidarity / Concern,23
+E154,Feel concerned about people in the neighbourhood,FALSE,,Circles of Solidarity / Concern,23
+E155,Feel concerned about people in the region,FALSE,,Circles of Solidarity / Concern,23
+E156,Feel concerned about fellow countrymen,FALSE,,Circles of Solidarity / Concern,23
+E157,Feel concerned about Europeans,FALSE,,Circles of Solidarity / Concern,23
+E158,Feel concerned about human kind,FALSE,,Circles of Solidarity / Concern,23
+E159,Feel concerned about elderly people,FALSE,,Circles of Solidarity / Concern,23
+E160,Feel concerned about unemployed people,FALSE,,Circles of Solidarity / Concern,23
+E161,Feel concerned about immigrants,FALSE,,Circles of Solidarity / Concern,23
+E162,Feel concerned about sick and disabled people,FALSE,,Circles of Solidarity / Concern,23
+E179,Which political party would you vote for first choice (ISO 3166-1),FALSE,,Party Preference & Media Use,24
+E181,"If don´t know, which party appeals to you most (ISO 3166-1)",FALSE,,Party Preference & Media Use,24
+E181A,Which political party appeals to you most (ISO 3166-1),FALSE,,Party Preference & Media Use,24
+E181C,Which political party would you vote for/appeals to you - left/right scale,FALSE,,Party Preference & Media Use,24
+E188,Frequency watches TV,FALSE,,Party Preference & Media Use,24
+E189,TV most important entertainment,FALSE,,Party Preference & Media Use,24
+E190,Why are there people living in need: first,FALSE,,,
+E191,Why are there people living in need: second,FALSE,,,
+E197,Opinion on terrorism,FALSE,,Global Governance & Issues,22
+E224,Democracy: Governments tax the rich and subsidize the poor.,FALSE,,Economy & Role of the State,18
+E225,Democracy: Religious authorities interpret the laws.,FALSE,,"Democracy: Values, Regimes & Performance",21
+E226,Democracy: People choose their leaders in free elections.,FALSE,,"Democracy: Values, Regimes & Performance",21
+E227,Democracy: People receive state aid for unemployment.,FALSE,,Economy & Role of the State,18
+E228,Democracy: The army takes over when government is incompetent.,FALSE,,"Democracy: Values, Regimes & Performance",21
+E229,Democracy: Civil rights protect people’s liberty against oppression.,FALSE,,"Democracy: Values, Regimes & Performance",21
+E233,Democracy: Women have the same rights as men.,FALSE,,"Democracy: Values, Regimes & Performance",21
+E233A,Democracy: The state makes people's incomes equal,FALSE,,Economy & Role of the State,18
+E233B,Democracy: People obey their rulers,FALSE,,Economy & Role of the State,18
+E235,Importance of democracy,FALSE,,"Democracy: Values, Regimes & Performance",21
+E236,Democraticness in own country,FALSE,,"Democracy: Values, Regimes & Performance",21
+E263,Vote in elections: local level,FALSE,,"Democracy: Values, Regimes & Performance",21
+E264,Vote in elections: National level,FALSE,,"Democracy: Values, Regimes & Performance",21
+E265_01,How often in country's elections: Votes are counted fairly,FALSE,,"Democracy: Values, Regimes & Performance",21
+E265_02,How often in country's elections: Opposition candidates are prevented from running,FALSE,,"Democracy: Values, Regimes & Performance",21
+E265_03,How often in country's elections: TV news favors the governing party,FALSE,,"Democracy: Values, Regimes & Performance",21
+E265_04,How often in country's elections: Voters are bribed,FALSE,,"Democracy: Values, Regimes & Performance",21
+E265_05,How often in country's elections: Journalists provide fair coverage of elections,FALSE,,"Democracy: Values, Regimes & Performance",21
+E265_06,How often in country's elections: Election officials are fair,FALSE,,"Democracy: Values, Regimes & Performance",21
+E265_07,How often in country's elections: Rich people buy elections,FALSE,,"Democracy: Values, Regimes & Performance",21
+E265_08,How often in country's elections: Voters are threatened with  violence at the polls,FALSE,,"Democracy: Values, Regimes & Performance",21
+E290,Justifiable: Political violence,FALSE,,"Security, Crime & Worries",28
+F001,Thinking about meaning and purpose of life,FALSE,,"Existential, Religion & Religiosity",25
+F003,Thinking about death,FALSE,,"Existential, Religion & Religiosity",25
+F004,Life is meaningful because God exists,FALSE,,"Existential, Religion & Religiosity",25
+F005,Try to get the best out of life,FALSE,,"Existential, Religion & Religiosity",25
+F006,Death is inevitable,FALSE,,"Existential, Religion & Religiosity",25
+F007,Death has meaning if you believe in God,FALSE,,"Existential, Religion & Religiosity",25
+F008,Death is a natural resting point,FALSE,,"Existential, Religion & Religiosity",25
+F009,Sorrow has meaning if you believe in God,FALSE,,"Existential, Religion & Religiosity",25
+F010,Life has no meaning,FALSE,,"Existential, Religion & Religiosity",25
+F022,Statement: good and evil,FALSE,,"Existential, Religion & Religiosity",25
+F024,Belong to religious denomination,FALSE,,"Existential, Religion & Religiosity",25
+F025,Religious denomination (major groups),FALSE,,"Existential, Religion & Religiosity",25
+F025_EVS,Religious denomination (country-specific),FALSE,,"Existential, Religion & Religiosity",25
+F026,Former religious denomination,FALSE,,"Existential, Religion & Religiosity",25
+F027,Which former religious denomination,FALSE,,"Existential, Religion & Religiosity",25
+F028,How often do you attend religious services,FALSE,,"Existential, Religion & Religiosity",25
+F029,Raised religiously,FALSE,,"Existential, Religion & Religiosity",25
+F030,Attendance religious services 12 years old,FALSE,,"Existential, Religion & Religiosity",25
+F031,Important: Religious service birth,FALSE,,"Existential, Religion & Religiosity",25
+F032,Important: Religious service marriage,FALSE,,"Existential, Religion & Religiosity",25
+F033,Important: Religious service death,FALSE,,"Existential, Religion & Religiosity",25
+F034,Religious person,FALSE,,"Existential, Religion & Religiosity",25
+F035,Churches give answers: moral problems,FALSE,,"Existential, Religion & Religiosity",25
+F036,Churches give answers: the problems of family life,FALSE,,"Existential, Religion & Religiosity",25
+F037,Churches give answers: people´s spiritual needs,FALSE,,"Existential, Religion & Religiosity",25
+F038,Churches give answers: the social problems,FALSE,,"Existential, Religion & Religiosity",25
+F040,Churches speak out on: disarmament,FALSE,,"Existential, Religion & Religiosity",25
+F041,Churches speak out on: abortion,FALSE,,"Existential, Religion & Religiosity",25
+F042,Churches speak out on: third world problems,FALSE,,"Existential, Religion & Religiosity",25
+F043,Churches speak out on: extramarital affairs,FALSE,,"Existential, Religion & Religiosity",25
+F044,Churches speak out on: unemployment,FALSE,,"Existential, Religion & Religiosity",25
+F045,Churches speak out on: racial discrimination,FALSE,,"Existential, Religion & Religiosity",25
+F046,Churches speak out on: euthanasia,FALSE,,"Existential, Religion & Religiosity",25
+F047,Churches speak out on: homosexuality,FALSE,,"Existential, Religion & Religiosity",25
+F048,Churches speak out on: ecology and environmental issues,FALSE,,"Existential, Religion & Religiosity",25
+F049,Churches speak out on: government policy,FALSE,,"Existential, Religion & Religiosity",25
+F050,Believe in: God,FALSE,,"Existential, Religion & Religiosity",25
+F051,Believe in: life after death,FALSE,,"Existential, Religion & Religiosity",25
+F052,Believe in: people have a soul,FALSE,,"Existential, Religion & Religiosity",25
+F053,Believe in: hell,FALSE,,"Existential, Religion & Religiosity",25
+F054,Believe in: heaven,FALSE,,"Existential, Religion & Religiosity",25
+F055,Believe in: sin,FALSE,,"Existential, Religion & Religiosity",25
+F057,Believe in: re-incarnation,FALSE,,"Existential, Religion & Religiosity",25
+F059,Believe in: devil,FALSE,,"Existential, Religion & Religiosity",25
+F060,Believe in: resurrection of the dead,FALSE,,"Existential, Religion & Religiosity",25
+F062,Personal God vs. Spirit or Life Force,FALSE,,"Existential, Religion & Religiosity",25
+F063,How important is God in your life,FALSE,,"Existential, Religion & Religiosity",25
+F064,Get comfort and strength from religion,FALSE,,"Existential, Religion & Religiosity",25
+F065,"Moments of prayer, meditation...",FALSE,,"Existential, Religion & Religiosity",25
+F066,Pray to God outside of religious services (i),FALSE,,"Existential, Religion & Religiosity",25
+F067,Pray to God outside of religious services (ii),FALSE,,"Existential, Religion & Religiosity",25
+F099,Lucky charm protects,FALSE,,"Existential, Religion & Religiosity",25
+F102,Politicians who don´t believe in God are unfit for public office,FALSE,,"Existential, Religion & Religiosity",25
+F103,Religious leaders should not influence how people vote,FALSE,,"Existential, Religion & Religiosity",25
+F104,Better if more people with strong religious beliefs in public office,FALSE,,"Existential, Religion & Religiosity",25
+F105,Religious leaders should not influence government,FALSE,,"Existential, Religion & Religiosity",25
+F114,Justifiable: Claiming government benefits,FALSE,,Moral Permissibility,26
+F114A,Justifiable: Claiming government benefits to which you are not entitled,FALSE,,Moral Permissibility,26
+F115,Justifiable: Avoiding a fare on public transport,FALSE,,Moral Permissibility,26
+F116,Justifiable: Cheating on taxes,FALSE,,Moral Permissibility,26
+F117,Justifiable: Someone accepting a bribe,FALSE,,Moral Permissibility,26
+F118,Justifiable: Homosexuality,FALSE,,Moral Permissibility,26
+F119,Justifiable: Prostitution,FALSE,,Moral Permissibility,26
+F120,Justifiable: Abortion,FALSE,,Reproductive Rights / Abortion Attitudes,4
+F121,Justifiable: Divorce,FALSE,,Moral Permissibility,26
+F122,Justifiable: Euthanasia,FALSE,,Moral Permissibility,26
+F123,Justifiable: Suicide,FALSE,,Moral Permissibility,26
+F125,Justifiable: Joyriding,FALSE,,Moral Permissibility,26
+F126,Justifiable: Taking soft drugs,FALSE,,Moral Permissibility,26
+F127,Justifiable: Lying,FALSE,,Moral Permissibility,26
+F128,Justifiable: Adultery,FALSE,,Moral Permissibility,26
+F129,Justifiable: Throwing away litter,FALSE,,Moral Permissibility,26
+F130,Justifiable: Driving under influence of alcohol,FALSE,,Moral Permissibility,26
+F131,Justifiable: Paying cash,FALSE,,Moral Permissibility,26
+F132,Justifiable: Having casual sex,FALSE,,Moral Permissibility,26
+F135,Justifiable: Sex under the legal age of consent,FALSE,,Moral Permissibility,26
+F136,Justifiable: Political assassination,FALSE,,Moral Permissibility,26
+F137,Justifiable: Experiments with human embryos,FALSE,,Moral Permissibility,26
+F138,Justifiable: Manipulation of food,FALSE,,Moral Permissibility,26
+F139,Justifiable: Buy stolen goods,FALSE,,Moral Permissibility,26
+F140,Justifiable: Keeping money that you have found,FALSE,,Moral Permissibility,26
+F141,Justifiable: Fighting with the police,FALSE,,Moral Permissibility,26
+F142,Justifiable: Failing to report damage you’ve done accidentally to a parked vehicle,FALSE,,Moral Permissibility,26
+F143,Justifiable: Threatening workers who refuse to join a strike,FALSE,,Moral Permissibility,26
+F144,Justifiable: Killing in self-defence,FALSE,,Moral Permissibility,26
+F144_01,Justifiable: Invitro fertilization,FALSE,,Reproductive Rights / Abortion Attitudes,4
+F144_01,Justifiable: Invitro fertilization,FALSE,,Reproductive Rights / Abortion Attitudes,26
+F144_01,Justifiable: Invitro fertilization,FALSE,,Moral Permissibility,4
+F144_01,Justifiable: Invitro fertilization,FALSE,,Moral Permissibility,26
+F144_02,Justifiable: Death penalty,FALSE,,Moral Permissibility,26
+G001,Geographical groups belonging to first,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G001CS,Geographical groups belonging to first (country-specific),FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G002,Geographical groups belonging to second,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G002CS,Geographical groups belonging to second  (country-specific),FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G005,Citizen of [country],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G006,How proud of nationality,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G007_01,Trust: Other people in country,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G007_18_B,Trust: Your neighborhood (B),FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G007_33_B,Trust: People you know personally (B),FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G007_34_B,Trust: People you meet for the first time (B),FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G007_35_B,Trust: People of another religion (B),FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G007_36_B,Trust: People of another nationality (B),FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G014,Opinion European union,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G027A,Respondent immigrant,FALSE,,,
+G033,Important: to have been born in [country],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G034,Important: to respect [country nationality] political institutions and laws,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G035,Important: to have [country nationality] ancestry,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G036,Important: to be able to speak [country language],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G038,Immigrants take away jobs from [nationality],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G040,Immigrants increase crime problems,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G041,Immigrants are a strain on welfare system,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G043,Immigrants maintain own/take over customs,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G051,European Union enlargement,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G052,Evaluate the impact of immigrants on the development of [your country],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G062,"How close you feel: continent; e.g. Europe, Asia etc.",FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G063,How close you feel: world,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G255,"How close you feel: your [village, town or city]",FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G256,"How close do you feel: to your county, region, district",FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G257,How close do you feel: to country,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+H009,Government has the right: Keep people under video surveillance in public areas,FALSE,,"Security, Crime & Worries",28
+H010,Government has the right: Monitor all e-mails and any other information exchanged on the Internet,FALSE,,"Security, Crime & Worries",28
+H011,Government has the right: Collect information about anyone living in [COUNTRY] without their knowledge,FALSE,,"Security, Crime & Worries",28
+V001,Father born in country,FALSE,,Parental / Spousal Background,29
+V001A,Fathers country of birth: ISO 3166-1 code,FALSE,,Parental / Spousal Background,29
+V001A_01,Fathers country of birth: ISO 3166-1/3 Alpha code,FALSE,,Parental / Spousal Background,29
+V002,Mother born in country,FALSE,,Parental / Spousal Background,29
+V002A,Mothers country of birth: ISO 3166-1 code,FALSE,,Parental / Spousal Background,29
+V002A_01,Mothers country of birth: ISO 3166-1/3 Alpha code,FALSE,,Parental / Spousal Background,29
+V004AF,Educational level father: ISCED 97 - one digit,FALSE,,Parental / Spousal Background,29
+V004AF_01,Educational level father: ISCED 11 - one digit,FALSE,,Parental / Spousal Background,29
+V004AM_01,Educational level mother: ISCED 11 - one digit,FALSE,,Parental / Spousal Background,29
+V004DF,"Educational level father: country-specific, ISO 3166-1",FALSE,,Parental / Spousal Background,29
+V004EF,Educational level father: 8 categories,FALSE,,Parental / Spousal Background,29
+V004RF,Educational level father: recoded,FALSE,,Parental / Spousal Background,29
+V004RM,Educational level mother: recoded,FALSE,,Parental / Spousal Background,29
+V005F,"At age 14, was father employed",FALSE,,Parental / Spousal Background,29
+V011,Mother liked to read books,FALSE,,Parental / Spousal Background,29
+V012,Discussed politics with mother,FALSE,,Parental / Spousal Background,29
+V013,Mother liked to follow the news,FALSE,,Parental / Spousal Background,29
+V014,Parent(s) had problems making ends meet,FALSE,,Parental / Spousal Background,29
+V015,Father liked to read books,FALSE,,Parental / Spousal Background,29
+V016,Discussed politics with father,FALSE,,Parental / Spousal Background,29
+V017,Father liked to follow the news,FALSE,,Parental / Spousal Background,29
+V018,Parent(s) had problems replacing broken things,FALSE,,Parental / Spousal Background,29
+V097EF,Occupational group - respondent´s father (EVS5 - main earner) (respondent  14 years old),FALSE,,Parental / Spousal Background,29
+W001,Spouse/partner born in [country],FALSE,,Parental / Spousal Background,29
+W001A,Spouse/partners country of birth: ISO 3166-1 code,FALSE,,Parental / Spousal Background,29
+W001A_01,Spouse/partners country of birth: ISO 3166-1/3 Alpha code,FALSE,,Parental / Spousal Background,29
+W002A,Educational level spouse/partner: ISCED 97 - one digit,FALSE,,Parental / Spousal Background,29
+W002A_01,Educational level spouse/partner: ISCED 11 -one digit,FALSE,,Parental / Spousal Background,29
+W002D,Educational level spouse/partner: Country-specific,FALSE,,Parental / Spousal Background,29
+W002E,Educational level spouse/partner: 8 categories,FALSE,,Parental / Spousal Background,29
+W002R,Educational level spouse/partner: recoded,FALSE,,Parental / Spousal Background,29
+W003,Employment status spouse/partner,FALSE,,Parental / Spousal Background,29
+W004,Employment status spouse/partner: last job,FALSE,,Parental / Spousal Background,29
+W005_2,Job profession/industry (2-digit ISCO88) - spouse/partner,FALSE,,Parental / Spousal Background,29
+W005_2_01,Job profession/industry (2-digit ISCO08) - spouse/partner,FALSE,,Parental / Spousal Background,29
+W006A,Occupational status spouse/partner - SIOPS,FALSE,,Parental / Spousal Background,29
+W006B,Occupational status spouse/partner - ISEI,FALSE,,Parental / Spousal Background,29
+W006C,Occupational status spouse/partner - European ESeC,FALSE,,Parental / Spousal Background,29
+W006D,Occupational status spouse/partner - egp11,FALSE,,Parental / Spousal Background,29
+W007,Spouse/partner had/has how many employees,FALSE,,Parental / Spousal Background,29
+W008,Does spouse/partner supervise someone,FALSE,,Parental / Spousal Background,29
+W009,How many people does she/he supervise,FALSE,,Parental / Spousal Background,29
+X001,Sex,FALSE,,"Demographics, Education, Employment & Income",30
+X002,Year of birth,FALSE,,"Demographics, Education, Employment & Income",30
+X002_02,Respondent born in [country],FALSE,,"Demographics, Education, Employment & Income",30
+X002_02A,Respondents country of birth: ISO 3166-1 code,FALSE,,"Demographics, Education, Employment & Income",30
+X002_02B,Respondents country of birth: ISO 3166-1/3 Alpha code,FALSE,,"Demographics, Education, Employment & Income",30
+X002_03,Year in which respondent came to live in [country],FALSE,,"Demographics, Education, Employment & Income",30
+X003,Age,FALSE,,"Demographics, Education, Employment & Income",30
+X003R,Age recoded,FALSE,,"Demographics, Education, Employment & Income",30
+X003R2,Age recoded (3 intervals),FALSE,,"Demographics, Education, Employment & Income",30
+X004,Stable relationship,FALSE,,"Demographics, Education, Employment & Income",30
+X006,Stable relationship before,FALSE,,"Demographics, Education, Employment & Income",30
+X007,Marital status,FALSE,,"Demographics, Education, Employment & Income",30
+X007_01,Lived with partner before marriage,FALSE,,"Demographics, Education, Employment & Income",30
+X007_02,Living with partner,FALSE,,"Demographics, Education, Employment & Income",30
+X008,Have you been married before,FALSE,,"Demographics, Education, Employment & Income",30
+X011,How many children do you have,FALSE,,"Demographics, Education, Employment & Income",30
+X011A,Have you had any children,FALSE,,"Demographics, Education, Employment & Income",30
+X012,How many are still living at home,FALSE,,"Demographics, Education, Employment & Income",30
+X013,Number of people in household,FALSE,,"Demographics, Education, Employment & Income",30
+X023,What age did you complete your education,FALSE,,"Demographics, Education, Employment & Income",30
+X023R,What age did you complete your education (recoded in intervals),FALSE,,"Demographics, Education, Employment & Income",30
+X025,Educational level respondent: 8 categories,FALSE,,"Demographics, Education, Employment & Income",30
+X025A,Educational level respondent: ISCED 97 - one digit,FALSE,,"Demographics, Education, Employment & Income",30
+X025A_01,Educational level respondent: ISCED 11 ‐ one digit,FALSE,,"Demographics, Education, Employment & Income",30
+X025CSEVS,Educational level respondent: country-specific,FALSE,,"Demographics, Education, Employment & Income",30
+X025R,Educational level respondent: recoded,FALSE,,"Demographics, Education, Employment & Income",30
+X026,Do you live with your parents (yes/no),FALSE,,"Demographics, Education, Employment & Income",30
+x026_01,Do you live with your parents (4 categories),FALSE,,"Demographics, Education, Employment & Income",30
+X028,Employment status,FALSE,,"Demographics, Education, Employment & Income",30
+X028_01,Employment status: last job,FALSE,,"Demographics, Education, Employment & Income",30
+X031,Are you supervising someone,FALSE,,"Demographics, Education, Employment & Income",30
+X032R_01,Number of supervised people (3 categories),FALSE,,"Demographics, Education, Employment & Income",30
+X034R_01,Number of employees (4 categories),FALSE,,"Demographics, Education, Employment & Income",30
+X035_2,Job profession/industry (2-digit ISCO88) - respondent,FALSE,,"Demographics, Education, Employment & Income",30
+X035_2_01,Job profession/industry (2-digit ISCO08) - respondent,FALSE,,"Demographics, Education, Employment & Income",30
+X036,Profession/job,FALSE,,"Demographics, Education, Employment & Income",30
+X036A,Occupational status respondent - SIOPS,FALSE,,"Demographics, Education, Employment & Income",30
+X036B,Occupational status respondent - ISEI,FALSE,,"Demographics, Education, Employment & Income",30
+X036C,Occupational status respondent - egp11,FALSE,,"Demographics, Education, Employment & Income",30
+X036D,Occupational status respondent - European ESeC,FALSE,,"Demographics, Education, Employment & Income",30
+X037_01,Respondent experienced unemployment longer than 3 months,FALSE,,"Demographics, Education, Employment & Income",30
+X037_02,Dependency on social security during last 5 years respondent,FALSE,,"Demographics, Education, Employment & Income",30
+X040,Are you the chief wage earner in your house,FALSE,,"Demographics, Education, Employment & Income",30
+X041,Is the chief wage earner employed now,FALSE,,"Demographics, Education, Employment & Income",30
+X043,Chief wage earner profession/job,FALSE,,"Demographics, Education, Employment & Income",30
+X044,Family savings during past year,FALSE,,"Demographics, Education, Employment & Income",30
+X045,Social class (subjective),FALSE,,"Demographics, Education, Employment & Income",30
+X046,Socio-economic status of respondent,FALSE,,"Demographics, Education, Employment & Income",30
+X047_EVS,Scale of incomes (EVS),FALSE,,"Demographics, Education, Employment & Income",30
+X047CS,Income (country-specific),FALSE,,"Demographics, Education, Employment & Income",30
+X047D,"Monthly household income (x1000), corrected for ppp in euros",FALSE,,"Demographics, Education, Employment & Income",30
+X047R_EVS,Income level (3 categories) EVS,FALSE,,"Demographics, Education, Employment & Income",30
+X048_EVS,Region where the interview was conducted,FALSE,,Region & Settlement,31
+x048a_n1,Region where the interview was conducted (NUTS-1): NUTS version 2006,FALSE,,Region & Settlement,31
+x048b_n2,Region where the interview was conducted (NUTS-2): NUTS version 2006,FALSE,,Region & Settlement,31
+X048H_N1,Region where the interview was conducted (NUTS-1): NUTS version 2016,FALSE,,Region & Settlement,31
+X048I_N2,Region where the interview was conducted (NUTS-2): NUTS version 2016,FALSE,,Region & Settlement,31
+X049,Size of town,FALSE,,Region & Settlement,31
+x049a,Size of town where interview was conducted (5 categories),FALSE,,Region & Settlement,31
+X049CS,Size of town (country-specific),FALSE,,Region & Settlement,31
+X050,Type of habitat,FALSE,,Region & Settlement,31
+X051,Ethnic group,FALSE,,Region & Settlement,31
+X052,Institution of occupation,FALSE,,"Demographics, Education, Employment & Income",30
+Y001,Post-Materialist index 12-item,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y002,Post-Materialist index 4-item,FALSE,,Indices (Inglehart/Welzel etc.),32
+s002,WVS-Wave,FALSE,,Technical / Meta,35
+COUNTRY_ALPHA,ISO 3166-1 alpha-3 country code,FALSE,,Technical / Meta,35
+COW_ALPHA,CoW country code alpha,FALSE,,Technical / Meta,35
+S004,Set,FALSE,,Technical / Meta,35
+S013B,Interview privacy,FALSE,,Technical / Meta,35
+S016B,Language in which interview was conducted,FALSE,,Technical / Meta,35
+S019,Equilibrated weight-1500,FALSE,,Technical / Meta,35
+pwgt,Population size weight,FALSE,,Technical / Meta,35
+A098,Active/Inactive membership of church or religious organization,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A099,Active/Inactive membership of sport or recreation,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A100,"Active/Inactive membership of art, music, educational",FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A101,Active/Inactive membership of labour unions,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A102,Active/Inactive membership of political party,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A103,Active/Inactive membership of environmental organization,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A104,Active/Inactive membership of professional organization,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A105,Active/Inactive membership of charitable/humanitarian organization,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A106,Active/Inactive membership of any other organization,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A106B,Active/Inactive membership: Consumer organization,FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A106C,"Active/Inactive membership: Self-help group, mutual aid group",FALSE,,"Memberships (NGOs, unions, parties, etc.)",6
+A124_11,Neighbours: Evangelists,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_12,Neighbours: People of a different religion,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_14,Neighbours: Militant minority,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_16,Neighbours: People not from country of origin,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_18,Neighbours: Political Extremists,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_19,Neighbours: Trafficants,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_30,Neighbours: North-American persons,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_34,Neighbours: Black people,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_35,Neighbours: White people,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_36,Neighbours: Coloured people,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_37,Neighbours: Indians,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_38,"Neighbours: Kurds, Esids",FALSE,,Social Distance / Unwanted Neighbours,9
+A124_42,Neighbours: Unmarried couples living together,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_43,Neighbours: People who speak a different language,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_45,Neighbours: Sunnis,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_46,Neighbours: Shia,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_47,Neighbours: French,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_48,Neighbours: British,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_49,Neighbours: Iranian,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_50,Neighbours: Kuwaiti,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_51,Neighbours: Turkish,FALSE,,Social Distance / Unwanted Neighbours,9
+A124_52,Neighbours: Jordanian,FALSE,,Social Distance / Unwanted Neighbours,9
+A189,Schwartz: It is important to this person to think up new ideas and be creative,FALSE,,Schwartz Portrait Values (short),33
+A190,Schwartz: It is important to this person to be rich,FALSE,,Schwartz Portrait Values (short),33
+A191,Schwartz: It is important to this person living in secure surroundings,FALSE,,Schwartz Portrait Values (short),33
+A192,Schwartz: It is important to this person to have a good time,FALSE,,Schwartz Portrait Values (short),33
+A193,Schwartz: It is important to this person to help the people nearby,FALSE,,Schwartz Portrait Values (short),33
+A194,Schwartz: It is important to this person being very successful,FALSE,,Schwartz Portrait Values (short),33
+A195,Schwartz: It is important to this person adventure and taking risks,FALSE,,Schwartz Portrait Values (short),33
+A196,Schwartz: It is important to this person to always behave properly,FALSE,,Schwartz Portrait Values (short),33
+A197,Schwartz: It is important to this person looking after the environment,FALSE,,Environment,11
+A197,Schwartz: It is important to this person looking after the environment,FALSE,,Environment,33
+A197,Schwartz: It is important to this person looking after the environment,FALSE,,Schwartz Portrait Values (short),11
+A197,Schwartz: It is important to this person looking after the environment,FALSE,,Schwartz Portrait Values (short),33
+A198,Schwartz: It is important to this person tradition,FALSE,,Schwartz Portrait Values (short),33
+B009,Human & nature,FALSE,,Environment,11
+C008,Work compared with Leisure,FALSE,,Work Values & Job Rewards,13
+C009,"First choice, if looking for a job",FALSE,,Work Values & Job Rewards,13
+C010,Second choice if looking for a job,FALSE,,Work Values & Job Rewards,13
+D055,Make effort to live up to what my friends expect,FALSE,,"Gender, Family Norms & Relationships",15
+D066_B,Problem if women have more income than husband (3 categories),FALSE,,"Gender, Family Norms & Relationships",15
+E025B,Political action recently done: signing a petition,FALSE,,"Political Interest, Action & Ideology",17
+E026B,Political action recently done: joining in boycotts,FALSE,,"Political Interest, Action & Ideology",17
+E069_10,Confidence: Television,FALSE,,Confidence in Institutions,19
+E069_15,Confidence: The Women´s Movement,FALSE,,Confidence in Institutions,19
+E069_21,Confidence: The Arab League,FALSE,,Confidence in Institutions,19
+E069_22,Confidence: The Association of South East Asian Nations -ASEAN,FALSE,,Confidence in Institutions,19
+E069_23,Confidence: The Organization for African Unity-OAU,FALSE,,Confidence in Institutions,19
+E069_24,Confidence: The NAFTA,FALSE,,Confidence in Institutions,19
+E069_25,Confidence: The Andean pact,FALSE,,Confidence in Institutions,19
+E069_26,Confidence: The Mercosur,FALSE,,Confidence in Institutions,19
+E069_27,Confidence: The SAARC,FALSE,,Confidence in Institutions,19
+E069_29,Confidence: The APEC,FALSE,,Confidence in Institutions,19
+E069_30,Confidence: The Free Commerce Treaty (Tratado de libre comercio),FALSE,,Confidence in Institutions,19
+E069_31,Confidence: The United American States Organization (Organización de Estados Unidos Americanos - OEA),FALSE,,Confidence in Institutions,19
+E069_33,Confidence: Local/Regional Government,FALSE,,Confidence in Institutions,19
+E069_40,Confidence: Charitable or humanitarian organizations,FALSE,,Confidence in Institutions,19
+E069_41,Confidence: Banks,FALSE,,Confidence in Institutions,19
+E069_42,Confidence: CARICOM,FALSE,,Confidence in Institutions,19
+E069_43,Confidence: CIS,FALSE,,Confidence in Institutions,19
+E069_44,Confidence: Confidence in CER with Australia,FALSE,,Confidence in Institutions,19
+E069_45,Confidence: International Monetary Found (IMF),FALSE,,Confidence in Institutions,19
+E069_54,Confidence: Universities,FALSE,,Confidence in Institutions,19
+E069_55,Confidence: The Organization of the Islamic World,FALSE,,Confidence in Institutions,19
+E069_56,Confidence: The Organization of American States (OAE),FALSE,,Confidence in Institutions,19
+E069_59,Confidence: Cooperation Council for the Arab states of Gulf (GCC),FALSE,,Confidence in Institutions,19
+E113,Rate political system in ten years,FALSE,,,
+E128,Country is run by big interest vs. for all people’s benefit,FALSE,,Economy & Role of the State,18
+E179WVS,Which party would you vote for: first choice (WVS),FALSE,,Party Preference & Media Use,24
+E180WVS,Which party would you vote for: second choice (WVS),FALSE,,Party Preference & Media Use,24
+E182,Party that would never vote,FALSE,,Party Preference & Media Use,24
+E217,"Science and technology are making our lives healthier, easier, and more comfortable",FALSE,,Science & Technology Attitudes,34
+E218,"Because of science and technology, there will be more opportunities for the next generation",FALSE,,Science & Technology Attitudes,34
+E220,We depend too much on science and not enough on faith,FALSE,,Science & Technology Attitudes,34
+E221B,Political action recently done: Attending peaceful/lawful demonstrations,FALSE,,"Political Interest, Action & Ideology",17
+E222,Political action: Other,FALSE,,"Political Interest, Action & Ideology",17
+E222B,Political action recently done: Other,FALSE,,"Political Interest, Action & Ideology",17
+E234,"The world is better off, or worse off, because of science and technology",FALSE,,Science & Technology Attitudes,34
+E238,Most serious problem of the world: 1st choice,FALSE,,Global Governance & Issues,22
+E248,Information source: Daily newspaper,FALSE,,Party Preference & Media Use,24
+E248B,Information source: Daily newspaper (B),FALSE,,Party Preference & Media Use,24
+E250,Information source: Printed magazines,FALSE,,Party Preference & Media Use,24
+E254,Information source: Talk with friends or colleagues,FALSE,,Party Preference & Media Use,24
+E254B,Information source: Talk with friends or colleagues (B),FALSE,,Party Preference & Media Use,24
+E255,How often use of PC,FALSE,,Party Preference & Media Use,24
+E258B,Information source: TV news (B),FALSE,,Party Preference & Media Use,24
+E259B,Information source: Radio news (B),FALSE,,Party Preference & Media Use,24
+E260B,Information source: Mobile phone (B),FALSE,,Party Preference & Media Use,24
+E261B,Information source: Email (B),FALSE,,Party Preference & Media Use,24
+E262B,Information source: Internet (B),FALSE,,Party Preference & Media Use,24
+E265_09,How often in country's elections: Voters are offered a genuine choice in the elections,FALSE,,"Democracy: Values, Regimes & Performance",21
+E266,Some people think that having honest elections makes a lot of difference in their lives; other people think that it doesn’t matter much,FALSE,,"Democracy: Values, Regimes & Performance",21
+F025_WVS,Religious denomination - detailed list,FALSE,,"Existential, Religion & Religiosity",25
+F028B,How often to you pray,FALSE,,"Existential, Religion & Religiosity",25
+F114B,Justifiable: Stealing property,FALSE,,Moral Permissibility,26
+F114C,Justifiable: Parents beating children,FALSE,,Moral Permissibility,26
+F114D,Justifiable: Violence against other people,FALSE,,Moral Permissibility,26
+F135A,Justifiable: Sex before marriage,FALSE,,Moral Permissibility,26
+F199,Justifiable: For a man to beat his wife,FALSE,,Moral Permissibility,26
+F200,Meaning of religion: To follow religious norms and ceremonies vs To do good to other people,FALSE,,"Existential, Religion & Religiosity",25
+F201,Meaning of religion: To make sense of life after death vs To make sense of life in this world,FALSE,,"Existential, Religion & Religiosity",25
+F202,"Whenever science and religion conflict, religion is always right",FALSE,,"Existential, Religion & Religiosity",25
+F203,The only acceptable religion is my religion,FALSE,,"Existential, Religion & Religiosity",25
+G003CS,Geographical groups belonging to least of all (country specific),FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G016,Language at home,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G017,Born in this country: birth country,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G018,When came to country,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G019,I see myself as a world citizen,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G020,I see myself as member of my local community,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G021,I see myself as citizen of the [country] nation,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G022A,I see myself as citizen of [Latinamerica],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G022B,I see myself as citizen of [North America],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G022C,I see myself as citizen of the [European Union],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G022D,I see myself as citizen of [APEC],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G022E,I see myself as citizen of [ASIA],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G022F,I see myself as citizen of [Mercosur],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G022K,I see myself as citizen of [The African Union],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G022L,I see myself as citizen of [Arab Maghreb Union],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G022M,I see myself as citizen of [ASEAN],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G022N,I see myself as citizen of [Arab Union],FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G023,I see myself as an autonomous individual,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G026,Mother immigrant,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G026_01,Mother's Country of origin,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G027,Father immigrant,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G027_01,Father's Country of origin,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+G027B,Respondent citizen,FALSE,,"Identity, Belonging, Citizenship & Immigration",27
+H001,Secure in neighborhood,FALSE,,"Security, Crime & Worries",28
+H002_01,Frequency in your neighborhood: Robberies,FALSE,,"Security, Crime & Worries",28
+H002_02,Frequency in your neighborhood: Alcohol consumed in the streets,FALSE,,"Security, Crime & Worries",28
+H002_03,Frequency in your neighborhood: Police or military interfere with people’s private life,FALSE,,"Security, Crime & Worries",28
+H002_04,Frequency in your neighborhood: Racist behavior,FALSE,,"Security, Crime & Worries",28
+H002_05,Frequency in your neighborhood: Drug sale in streets,FALSE,,"Security, Crime & Worries",28
+H003_01,Things done for reasons of security: Didn’t carry much money,FALSE,,"Security, Crime & Worries",28
+H003_02,Things done for reasons of security: Preferred not to go out at night,FALSE,,"Security, Crime & Worries",28
+H003_03,"Things done for reasons of security: Carried a knife, gun or other weapon",FALSE,,"Security, Crime & Worries",28
+H004,Respondent was victim of a crime during the past year,FALSE,,"Security, Crime & Worries",28
+H005,Respondent's family was victim of a crime during last year,FALSE,,"Security, Crime & Worries",28
+H006_01,Worries: Losing my job or not finding a job,FALSE,,"Security, Crime & Worries",28
+H006_02,Worries: Not being able to give one's children a good education,FALSE,,"Security, Crime & Worries",28
+H006_03,Worries: A war involving my country,FALSE,,"Security, Crime & Worries",28
+H006_04,Worries: A terrorist attack,FALSE,,"Security, Crime & Worries",28
+H006_05,Worries: A civil war,FALSE,,"Security, Crime & Worries",28
+H008_01,Frequency you/family (last 12 month): Gone without enough food to eat,FALSE,,"Security, Crime & Worries",28
+H008_02,Frequency you/family (last 12 month): Felt unsafe from crime in your own home,FALSE,,"Security, Crime & Worries",28
+H008_03,Frequency you/family (last 12 month): Gone without needed medicine or treatment that you needed,FALSE,,"Security, Crime & Worries",28
+H008_04,Frequency you/family (last 12 month): Gone without a cash income,FALSE,,"Security, Crime & Worries",28
+I001,One of the bad effects of science is that it breaks down people’s ideas of right and wrong,FALSE,,Science & Technology Attitudes,34
+I002,It is not important for me to know about science in my daily life,FALSE,,Science & Technology Attitudes,34
+X025CSWVS,Education (country specific),FALSE,,"Demographics, Education, Employment & Income",30
+X047_WVS,Scale of incomes,FALSE,,"Demographics, Education, Employment & Income",30
+X047R_WVS,Subjective income level (recoded in 3 groups),FALSE,,"Demographics, Education, Employment & Income",30
+X048ISO,Region ISO 3166-2,FALSE,,Region & Settlement,31
+X048WVS,Region where the interview was conducted (WVS),FALSE,,Region & Settlement,31
+X050C,Urban/Rural habitat,FALSE,,,
+X053,Nature of tasks: manual vs. Cognitive,FALSE,,"Demographics, Education, Employment & Income",30
+X054,Nature of tasks: routine vs. Creative,FALSE,,"Demographics, Education, Employment & Income",30
+X055,Nature of tasks: independence,FALSE,,"Demographics, Education, Employment & Income",30
+Y003,Autonomy Index,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y010,SACSECVAL.- Welzel Overall Secular Values,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y011,DEFIANCE.- Welzel defiance sub-index,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y011A,AUTHORITY - Welzel defiance - 1: Inverse respect for authority,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y011B,NATIONALISM - Welzel defiance - 2: Inverse national pride,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y011C,DEVOUT- Welzel defiance - 3: Inverse devoutness,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y012,DISBELIEF.- Welzel disbelief sub-index,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y012A,RELIGIMP - Welzel disbelief- 1: Inverse importance of religion,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y012B,RELIGBEL - Welzel disbelief- 2: Inverse religious person,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y012C,RELIGPRAC - Welzel disbelief- 3: Inverse religious practice,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y013,RELATIVISM.- Welzel relativism,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y013A,NORM1 - Welzel relativism- 1: Inverse norm conform1,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y013B,NORM2 - Welzel relativism- 2: Inverse norm conform2,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y013C,NORM3 - Welzel relativism- 3: Inverse norm conform3,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y014,SCEPTICISM.- Welzel scepticism index,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y014A,TRUSTARMY- Welzel scepticism- 1: Inverse trust in army,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y014B,TRUSTPOLICE- Welzel scepticism- 2: Inverse trust in police,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y014C,TRUSTCOURTS- Welzel scepticism- 3: Inverse trust in courts,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y020,RESEMAVAL.- Welzel emancipative values,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y021,AUTONOMY.- Wezel Autonomy subindex,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y021A,INDEP- Welzel autonomy-1: Independence as kid quality,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y021B,IMAGIN- Welzel autonomy-2: Imagination as kid quality,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y021C,NONOBED- Welzel autonomy-3: Obedience as kid quality,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y022,EQUALITY.- Welzel equality sub-index,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y022A,WOMJOB- Welzel equality-1: Gender equality: job,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y022B,WOMPOL- Welzel equality-2: Gender equality: politics,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y022C,WOMEDU- Welzel equality-3: Gender equality: education,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y023,CHOICE.- Welzel choice sub-index,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y023A,HOMOLIB- Welzel choice-1: Homosexuality acceptance,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y023B,ABORTLIB- Welzel choice-2: Abortion acceptable,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y023C,DIVORLIB- Welzel choice-3: Divorce acceptable,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y024,VOICE.- Welzel voice sub-index,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y024A,VOICE1- Welzel voice-1,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y024B,VOICE2- Welzel voice-2,FALSE,,Indices (Inglehart/Welzel etc.),32
+Y024C,VOI2_00- Welzel voice-3 (auxiliary),FALSE,,Indices (Inglehart/Welzel etc.),32
+N_BREAK,Number,FALSE,,,
