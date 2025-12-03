@@ -1,0 +1,255 @@
+import streamlit as st
+import pandas as pd
+import io
+import re
+
+# -----------------------------------------------------------------------------
+# 1. AYARLAR
+# -----------------------------------------------------------------------------
+st.set_page_config(page_title="EVS/WVS Proje Yöneticisi", layout="wide", page_icon="🗂️")
+st.title("🗂️ EVS/WVS: Analiz Platformu")
+st.markdown("""
+Bu platformda verileri analiz edebilir ve çalışmanızı **Excel dosyası** olarak bilgisayarınıza kaydedebilirsiniz.
+*Veriler tarayıcınız yenilendiğinde sıfırlanır, bu yüzden çalışmanızı indirmeyi unutmayın.*
+""")
+
+# -----------------------------------------------------------------------------
+# 2. HAFIZA (SESSION STATE)
+# -----------------------------------------------------------------------------
+if 'project_data' not in st.session_state:
+    st.session_state['project_data'] = {}
+
+# -----------------------------------------------------------------------------
+# 3. VERİ YÜKLEME
+# -----------------------------------------------------------------------------
+@st.cache_data
+def load_base_data():
+    excel_file = 'Country_Questions_Table v02..xlsx'
+    meta_file = 'questions.csv'
+    try:
+        xl = pd.ExcelFile(excel_file)
+        sheet_names = xl.sheet_names
+        survey_sheet = next((s for s in sheet_names if "Survey" in s), None)
+        if survey_sheet:
+            df = pd.read_excel(excel_file, sheet_name=survey_sheet)
+        else:
+            return None, None, "Excel dosyasında 'Survey' sayfası bulunamadı."
+        
+        meta = pd.read_csv(meta_file)
+        meta = meta[['question_code', 'question_name', 'theme']].drop_duplicates()
+        return df, meta, None
+    except Exception as e:
+        return None, None, str(e)
+
+df_main, df_meta, error = load_base_data()
+
+if error:
+    st.error(f"Kritik Hata: {error}")
+    st.stop()
+
+# S021 Ayrıştırma
+try:
+    if 'Country_Name' not in df_main.columns:
+        extracted = df_main['S021'].astype(str).str.extract(r'^(.*)\s\[(\d{4})\]$')
+        df_main['Country_Name'] = extracted[0].str.strip()
+        df_main['Year'] = extracted[1]
+except:
+    st.warning("Tarih formatı ayrıştırılamadı, bazı fonksiyonlar çalışmayabilir.")
+
+# -----------------------------------------------------------------------------
+# 4. KENAR ÇUBUĞU (Her zaman aktif)
+# -----------------------------------------------------------------------------
+st.sidebar.header("⚙️ Ayarlar")
+
+# A. DOSYA YÜKLEME (Projeyi Geri Getir)
+uploaded_project = st.sidebar.file_uploader("📂 Eski çalışmayı (.xlsx) yükle", type=['xlsx'])
+if uploaded_project:
+    try:
+        project_xl = pd.ExcelFile(uploaded_project)
+        # Mevcut hafızayı güncelle, silme
+        for sheet in project_xl.sheet_names:
+            if sheet == 'PROJE_BILGI': continue
+            df_sheet = pd.read_excel(uploaded_project, sheet_name=sheet)
+            if 'Kod' in df_sheet.columns:
+                # Kodları listeye çevirip hafızaya at
+                st.session_state['project_data'][sheet] = df_sheet['Kod'].astype(str).tolist()
+        st.sidebar.success("Proje başarıyla yüklendi!")
+    except Exception as e:
+        st.sidebar.error(f"Dosya okunamadı: {e}")
+
+st.sidebar.divider()
+
+# B. ÜLKE SEÇİMİ
+all_countries = sorted(df_main['Country_Name'].dropna().unique())
+desired_defaults = ["Bulgaria", "Croatia", "Finland", "Sweden"]
+default_defaults = [c for c in desired_defaults if c in all_countries]
+
+selected_countries = st.sidebar.multiselect("Ülkeler:", all_countries, default=default_defaults)
+
+if not selected_countries:
+    st.warning("Lütfen en az bir ülke seçin.")
+    st.stop()
+
+# C. TEMA SEÇİMİ
+all_themes = sorted([str(x) for x in df_meta['theme'].unique() if pd.notna(x)])
+selected_theme = st.sidebar.selectbox("Konu Başlığı (Theme):", all_themes)
+
+# -----------------------------------------------------------------------------
+# 5. ANA EKRAN MANTIĞI
+# -----------------------------------------------------------------------------
+st.divider()
+
+# Seçilen temanın sorularını bul
+theme_questions = df_meta[df_meta['theme'] == selected_theme]
+available_q_codes = [q for q in theme_questions['question_code'] if q in df_main.columns]
+
+if not available_q_codes:
+    st.info("Bu tema için veri setinde soru bulunamadı.")
+    st.stop()
+
+format_dict = dict(zip(theme_questions.question_code, theme_questions.question_name))
+
+# --- HAFIZA YÖNETİMİ ---
+# Eğer bu tema hafızada hiç yoksa, varsayılan olarak TÜMÜNÜ seç.
+if selected_theme not in st.session_state['project_data']:
+    st.session_state['project_data'][selected_theme] = available_q_codes
+
+# Hafızadaki mevcut durumu al
+current_selection = st.session_state['project_data'][selected_theme]
+
+# --- ARAYÜZ ---
+col_left, col_right = st.columns([4, 6], gap="medium")
+
+# SOL TARAFA: LİSTE
+with col_left:
+    st.subheader("1. Soruları Seç")
+    
+    # Yardımcı Butonlar
+    c1, c2 = st.columns(2)
+    if c1.button("✅ Hepsini Seç", key="btn_all"):
+        st.session_state['project_data'][selected_theme] = available_q_codes
+        st.rerun()
+    if c2.button("🗑️ Temizle", key="btn_clear"):
+        st.session_state['project_data'][selected_theme] = []
+        st.rerun()
+    
+    # DataEditor için DataFrame Hazırla
+    # Her zaman tüm soruları listele, hafızada olanları True yap
+    editor_data = []
+    for code in available_q_codes:
+        editor_data.append({
+            "Seç": code in current_selection,
+            "Kod": code,
+            "Soru": format_dict.get(code, "")
+        })
+    
+    df_editor = pd.DataFrame(editor_data)
+
+    # Tabloyu Çiz
+    edited_df = st.data_editor(
+        df_editor,
+        column_config={
+            "Seç": st.column_config.CheckboxColumn("Durum", width="small"),
+            "Kod": st.column_config.TextColumn("Kod", disabled=True, width="small"),
+            "Soru": st.column_config.TextColumn("Soru", disabled=True, width="large"),
+        },
+        disabled=["Kod", "Soru"],
+        hide_index=True,
+        use_container_width=True,
+        height=500,
+        key=f"editor_{selected_theme}" # Key sayesinde tema değişince tablo sıfırlanır/yenilenir
+    )
+
+    # --- KRİTİK NOKTA: DURUM GÜNCELLEME ---
+    # Kullanıcı tabloda bir şeye tıkladığında burası çalışır.
+    # Yeni seçimi alıyoruz:
+    new_selection = edited_df[edited_df["Seç"] == True]["Kod"].tolist()
+    
+    # Hafızayı güncelliyoruz. Bunu bir koşula bağlamıyoruz!
+    # Liste boş olsa bile hafızaya boş liste olarak kaydediyoruz.
+    st.session_state['project_data'][selected_theme] = new_selection
+
+
+# SAĞ TARAF: SONUÇLAR
+with col_right:
+    st.subheader("2. Analiz Sonucu")
+    
+    # Görselleştirilecek veri var mı?
+    display_codes = st.session_state['project_data'][selected_theme]
+    
+    if display_codes:
+        st.caption(f"Şu an **{len(display_codes)}** soru seçili.")
+        
+        results = []
+        # Veri çekme işlemini hızlandırmak için filtreyi döngü dışında yap
+        filtered_df = df_main[df_main['Country_Name'].isin(selected_countries)]
+        
+        # Basit bir spinner ile kullanıcıyı beklet
+        with st.spinner('Tablo güncelleniyor...'):
+            for q_code in display_codes:
+                row = {"Kod": q_code, "Soru": format_dict.get(q_code, "-")}
+                for country in selected_countries:
+                    c_dat = filtered_df[filtered_df['Country_Name'] == country]
+                    # 'VAR' olan yılları al
+                    years = c_dat[c_dat[q_code] == 'VAR']['Year'].dropna().unique()
+                    row[country] = ", ".join(sorted(years)) if len(years) > 0 else "-"
+                results.append(row)
+        
+        st.dataframe(pd.DataFrame(results), use_container_width=True, height=500, hide_index=True)
+    else:
+        # Liste boşsa uyarı göster ama ÇÖKME
+        st.warning("⚠️ Hiçbir soru seçili değil.")
+        st.info("Soldaki listeden soru seçerek analize başlayabilirsiniz. Tema değiştirmek için sol menüyü kullanabilirsiniz.")
+
+# -----------------------------------------------------------------------------
+# 6. İNDİRME BÖLÜMÜ
+# -----------------------------------------------------------------------------
+st.divider()
+
+# Dolu olan temaları bul (En az 1 soru seçilmiş olanlar)
+active_themes = {k: v for k, v in st.session_state['project_data'].items() if v}
+
+col1, col2 = st.columns([3, 1])
+
+with col1:
+    if active_themes:
+        st.success(f"Toplam **{len(active_themes)} farklı tema** projenize dahil edildi.")
+    else:
+        st.info("İndirmek için henüz bir veri seçmediniz.")
+
+with col2:
+    if active_themes:
+        # Excel oluşturma
+        output = io.BytesIO()
+        writer = pd.ExcelWriter(output, engine='xlsxwriter')
+        
+        # 1. Bilgi Sayfası
+        pd.DataFrame({'Seçili Ülkeler': selected_countries}).to_excel(writer, sheet_name='PROJE_BILGI', index=False)
+        
+        # 2. Her Tema İçin Sayfa
+        for theme, codes in active_themes.items():
+            sheet_data = []
+            filtered_df = df_main[df_main['Country_Name'].isin(selected_countries)]
+            
+            for q in codes:
+                q_name = format_dict.get(q, "-")
+                row = {"Kod": q, "Soru": q_name}
+                for c in selected_countries:
+                    c_dat = filtered_df[filtered_df['Country_Name'] == c]
+                    years = c_dat[c_dat[q] == 'VAR']['Year'].dropna().unique()
+                    row[c] = ", ".join(sorted(years)) if len(years)>0 else "-"
+                sheet_data.append(row)
+            
+            # Excel sayfa adı kuralları (max 31 karakter, özel karakter yok)
+            safe_name = re.sub(r'[\\/*?:\[\]]', '', theme)[:30]
+            pd.DataFrame(sheet_data).to_excel(writer, sheet_name=safe_name, index=False)
+        
+        writer.close()
+        
+        st.download_button(
+            label="💾 Projeyi İndir (Excel)",
+            data=output.getvalue(),
+            file_name="EVS_WVS_Proje.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            type="primary"
+        )
